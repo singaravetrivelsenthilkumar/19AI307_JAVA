@@ -20,20 +20,39 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SINGARAVETRIVEL S
+RegisterNumber: 212222220048 
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
-
-
-
-
-
-
+public class Distance
+{
+    int feet,inches;
+    public static void main(String[] args)
+    {
+        Distance obj1=new  Distance();
+        Distance obj2=new  Distance();
+        Distance obj3=new  Distance();
+        Scanner sc=new Scanner(System.in);
+        obj1.feet=sc.nextInt();
+        obj1.inches=sc.nextInt();
+        obj2.feet=sc.nextInt();
+        obj2.inches=sc.nextInt();
+        
+        
+        obj3.feet=(obj1.feet+obj2.feet);
+        obj3.inches=(obj1.inches+obj2.inches);
+        System.out.println("Total Distance is "+obj3.feet+" feet and "+obj3.inches+" inches");
+        
+    }
+}
+```
 ## OUTPUT:
+![{4409D395-7C76-439B-B004-FAD388BCA5B4}](https://github.com/user-attachments/assets/95a9c506-b39d-4144-8b4f-3c9c052cd9a5)
 
 
 
